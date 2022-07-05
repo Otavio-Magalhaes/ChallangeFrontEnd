@@ -1,0 +1,18 @@
+.botao{
+    display: block;
+    
+    background-color: #FC7071;
+    
+    height: 40px;
+    
+    border: none;
+    border-radius: 5px;
+    
+    margin: 1rem auto;
+    
+    width: 180px;
+}
+
+.botao a{
+    text-align: center;
+}

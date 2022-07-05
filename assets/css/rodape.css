@@ -1,0 +1,16 @@
+@import url(base.css);
+
+.rodape{
+    background: var(--verde-claro) ;
+    
+    color: var(--branco);
+
+
+
+    padding: 2rem;
+    
+}
+
+.rodape__paragrafo{
+    text-align: center;
+}
