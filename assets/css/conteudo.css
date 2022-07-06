@@ -1,52 +1,50 @@
 body{
-    background-image: url(../img/formaCabecalho.svg);
-    background-repeat: no-repeat;
-    background-position:top left;
     background-color: var(--azul);
+
+    background-image: url(../img/formaCabecalho.svg), 
+    url(../img/formaConteudo.svg), 
+    url(../img/ilustração-conteudo.svg) ;
+
+    background-position:top left, 
+    right center,
+    bottom 4.5rem center ;
+    background-repeat: no-repeat;
+    
+    display: flex;
+    flex-direction: column;
+    font-family: var(--fonte-pop);
+    
+    min-height: 100vh;
 }
+
 
 .conteudo__principal{
-    margin-top: 6rem;
-
-
-    background-image: url(../img/formaConteudo.svg);
-    background-repeat: no-repeat;
-    background-position: right;
-    background-position-y: 20%;
-    overflow: hidden;
-}
-
-.conteudo__chamada{
-    padding: 0 3.5rem;
-    text-align: center  ;
     color: var(--branco);
+    
+    margin-top: 1rem;
+
+    padding: 0 6rem;
+    text-align: center  ;
+    flex-grow: 1;
+
 
 }
 
 .conteudo__logo{
     display: block;
     margin: 0 auto;
-    width: 186.67;
     height: 46px;
-    padding: 1.5rem 0;
+    padding: 3rem 0 1.5rem 0;
 }
 
 .conteudo__titulo{
-    display: block;
-
-
-    font-family: 'IBM Plex Sans', sans-serif;
     font-size: 26px;
-    font-weight: 500;
+    font-family: var(--fonte-ibm);
 
 }
 
 .conteudo__paragrafo{
-    font-family: 'Poppins', sans-serif;
-    padding-top: 1.5rem;
-    padding-bottom: 1.5rem;
+    line-height: 24px;
+    margin: 1.5rem 0;
 }
 
-.conteudo__imagem{
-    margin: 1.5rem 4rem -1.5rem 2rem;
-}

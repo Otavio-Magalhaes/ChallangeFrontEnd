@@ -4,10 +4,6 @@
     --branco: #FFFFFF;
     --salmao: #FC7071;
     --salmao-claro: #FF9D9E;
-}
-
-
-*{
-    font-family: 'Poppins', sans-serif;
-
+    --fonte-pop: 'Poppins', sans-serif;
+    --fonte-ibm:    'IBM Plex Sans', sans-serif;
 }
