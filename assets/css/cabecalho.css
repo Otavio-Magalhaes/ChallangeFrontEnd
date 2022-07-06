@@ -1,14 +1,4 @@
 @import url(base.css);
-
-body{
-       background-image: url(../img/formaCabecalho.svg);
-       background-repeat: no-repeat;
-       background-color: var(--azul);
-
-       
-       
-}
-
 .cabecalho{
     display: flex;
     align-items: center;
@@ -20,8 +10,8 @@ body{
     position: relative;
     padding-top: 3rem;
     position: relative;
-
 }
+
 
 .cabecalho__menu{
     display: flex;

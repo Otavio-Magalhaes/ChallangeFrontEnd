@@ -5,12 +5,20 @@
     
     color: var(--branco);
 
+    padding: 2.5rem;
 
-
-    padding: 2rem;
     
 }
 
 .rodape__paragrafo{
     text-align: center;
+}
+
+.rodape__paragrafo a{
+    color: var(--branco);
+}
+
+.rodape__paragrafo a:hover{
+    font-size: 1.15rem;
+    color: var(--salmao);
 }

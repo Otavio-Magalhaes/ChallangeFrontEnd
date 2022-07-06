@@ -1,32 +1,52 @@
-.conteudo__principal{
-    height: 100vh;
+body{
+    background-image: url(../img/formaCabecalho.svg);
+    background-repeat: no-repeat;
+    background-position:top left;
+    background-color: var(--azul);
+}
 
+.conteudo__principal{
+    margin-top: 6rem;
+
+
+    background-image: url(../img/formaConteudo.svg);
+    background-repeat: no-repeat;
+    background-position: right;
+    background-position-y: 20%;
+    overflow: hidden;
 }
 
 .conteudo__chamada{
-    padding: 3.5rem;
+    padding: 0 3.5rem;
+    text-align: center  ;
+    color: var(--branco);
 
 }
 
 .conteudo__logo{
     display: block;
-    margin: 0rem auto ;
-    width: 186.67px;
+    margin: 0 auto;
+    width: 186.67;
+    height: 46px;
+    padding: 1.5rem 0;
 }
 
 .conteudo__titulo{
     display: block;
 
-    text-align: center;
-    
+
     font-family: 'IBM Plex Sans', sans-serif;
     font-size: 26px;
     font-weight: 500;
 
-    margin-top: 1.5rem;
-    margin-bottom: 1rem;
 }
 
 .conteudo__paragrafo{
-    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+}
+
+.conteudo__imagem{
+    margin: 1.5rem 4rem -1.5rem 2rem;
 }
