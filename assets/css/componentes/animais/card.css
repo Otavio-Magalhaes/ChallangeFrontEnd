@@ -1,0 +1,61 @@
+.container__texto{
+    color: var(--azul);
+    text-align: center;
+    padding: 1rem 4.1875rem;
+}
+.texto__titulo{
+    line-height: 20px;
+    font-weight: 400;
+}
+.cards{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    z-index: 1;
+}
+
+.card{
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    width: 22.5rem;
+    height: 12rem;
+    background-color: var(--cinza-claro);
+    padding: 1rem;
+}
+
+.card__titulo{
+    color: var(--azul);
+    margin-bottom: 0.5rem;
+    font-weight: 600;
+}
+
+.card__texto{
+    padding-left: 1rem;
+}
+
+.card__descricao{
+    line-height: 20px;
+    font-size: 14px;
+}
+
+.card__endereco{
+    font-size: 12px;
+    line-height: 16px;
+    margin-top: 2.5rem;
+}
+
+.div__mensagem{
+    margin-top: 0.25rem;
+    display: flex;
+    gap: 4px;
+}
+.card__mensagem{
+    font-size: 11px;
+    line-height: 16px;
+}
+
+.card__texto--ajustes{
+    font-weight: 400;
+    color: var(--cinza);
+}

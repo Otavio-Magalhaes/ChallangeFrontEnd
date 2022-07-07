@@ -1,4 +1,6 @@
 @import url(base.css);
+
+/* usado para posicionar o cabecalho, nas paginas de animais, mensagens e perfil */
 .cabecalho{
     display: flex;
     align-items: center;
@@ -9,15 +11,15 @@
 
     position: relative;
     padding-top: 3rem;
-    position: relative;
+    z-index: 3;
 }
+
 
 
 .cabecalho__menu{
     display: flex;
     align-items: center;
     gap: 3.66rem;
-
 }
 
 

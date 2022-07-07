@@ -13,10 +13,9 @@ body{
     display: flex;
     flex-direction: column;
     font-family: var(--fonte-pop);
-    
+    min-width: 100vw;
     min-height: 100vh;
 }
-
 
 .conteudo__principal{
     color: var(--branco);

@@ -1,0 +1,29 @@
+
+.container__texto{
+    color: var(--azul);
+    line-height: 21px;
+    text-align: center;
+    margin-bottom: 1.25rem;
+    padding: 0 1rem;
+}
+
+.conteudo__logo--azul{
+    width: 142.54px;
+    height: 34.36px ;
+    margin-bottom: 1.5rem;
+}
+/* somente na pagina de login existe este espaçamento*/
+.espacamento__login{
+    margin-top: 3.54rem;
+}
+
+.texto__paragrafo{
+    padding-bottom: 0.5rem;
+}
+
+.esqueci__senha{
+    text-align: center;
+    color: var(--salmao);
+    text-decoration: underline;
+    margin-bottom: 1.5rem;
+}

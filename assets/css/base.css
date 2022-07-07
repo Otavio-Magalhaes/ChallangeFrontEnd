@@ -1,9 +1,14 @@
 :root{
     --azul: #3772FF;
-    --verde-claro: #36D6AD;
     --branco: #FFFFFF;
+    --cinza: #737380;
+    --cinza-claro: #F6F6F6;
+    --verde-claro: #36D6AD;
     --salmao: #FC7071;
     --salmao-claro: #FF9D9E;
+
+
     --fonte-pop: 'Poppins', sans-serif;
     --fonte-ibm:    'IBM Plex Sans', sans-serif;
+
 }
