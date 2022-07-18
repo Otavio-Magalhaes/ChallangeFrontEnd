@@ -1,15 +1,16 @@
 @import url(base.css);
 
-/* usado para posicionar o cabecalho, nas paginas de animais, mensagens e perfil */
-.cabecalho{
-    display: flex;
-    align-items: center;
-    display: flex;
 
+.cabecalho{
     padding: 3rem;
     z-index: 3;
 }
-
+.cabecalho__nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-right: 2rem;
+}
 
 .cabecalho__logo{
     display: none;
@@ -22,25 +23,48 @@
 }
 
 
-/*   Usando position para alocar casa e mensagem e tirar o display do user, nas outras paginas vou somente nao usar essas classes e ja vai estar posicionado corretamente*/
-
-
 .icone--user{
     display: none;
 }
 
 
 @media (min-width: 768px) {
-    
+    .cabecalho{
+        padding: 4.25rem 0 2rem 3rem;
+    }
+
+    .cabecalho__menu{
+        gap: 4rem;
+    }
+
     .cabecalho__logo{
         display: flex;
         width: 128px;
         height: 31px;
     }
+    .icone{
+        width: 48px;
+        height: 48px;
+    }
 }
 
 @media (min-width: 1280px) {
+
+    .cabecalho{
+        padding-left: 8rem;
+    }
+    .cabecalho__nav{
+
+        padding-right: 7.875rem ;
+    }
     .cabecalho__menu{
-        padding-left: 10rem;
+        gap: 2rem;
+    }
+    .cabecalho__logo{
+        margin-right: 2rem;
+    }
+    .icone{
+        width: 56px;
+        height: 56px;
     }
 }

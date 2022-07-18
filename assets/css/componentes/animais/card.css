@@ -1,7 +1,7 @@
 .container__texto{
     color: var(--azul);
     text-align: center;
-    padding: 1rem 4.1875rem;
+    padding: 8rem 4.1875rem 2rem;
     
 }
 .texto__titulo{
@@ -18,23 +18,23 @@
     flex-direction: column;
     gap: 1rem;
     z-index: 1;
-
 }
 
 .card{
     align-items: center;
+    background-color: var(--cinza-claro);
     display: flex;
     justify-content: center;
-    width: 22.5rem;
     height: 12rem;
-    background-color: var(--cinza-claro);
     padding: 1rem;
+    width: 22.5rem;
+    z-index: -1;
 }
 
 .card__titulo{
     color: var(--azul);
-    margin-bottom: 0.5rem;
     font-weight: 600;
+    margin-bottom: 0.5rem;
 }
 
 .card__texto{
@@ -42,8 +42,8 @@
 }
 
 .card__descricao{
-    line-height: 20px;
     font-size: 14px;
+    line-height: 20px;
 }
 
 .card__endereco{
@@ -73,7 +73,7 @@
         display: block;
     }
     .cards{
-        display: flex;
+        margin-top: 1rem;
         flex-direction: row;
 
         flex-wrap: wrap;

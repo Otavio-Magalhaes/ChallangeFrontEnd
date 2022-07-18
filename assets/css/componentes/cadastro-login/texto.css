@@ -17,7 +17,11 @@
     margin-bottom: 1.5rem;
 }
 
-
+/* pagina de mensagem*/
+.texto__paragrafo--azul{
+    color: var(--azul);
+    padding: 0 4.5rem;
+}
 
 
 
@@ -35,4 +39,17 @@
     color: var(--salmao);
     text-decoration: underline;
     margin-bottom: 1.5rem;
+}
+
+
+@media (min-width: 768px) {
+    .texto__paragrafo--azul{
+        padding: 0 8rem;
+    }
+}
+
+@media (min-width:1280px) {
+    .texto__paragrafo--azul{
+        padding: 0 29rem;
+    }
 }

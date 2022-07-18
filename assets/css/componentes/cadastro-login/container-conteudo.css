@@ -6,3 +6,9 @@
     padding: 1.5rem;
 }
 
+@media (min-width: 768px) {
+    .conteudo__principal{
+        
+        margin-top: 5rem;
+    }
+}

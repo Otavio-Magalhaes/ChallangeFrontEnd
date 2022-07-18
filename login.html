@@ -22,15 +22,18 @@
 <body class="body__fundo">
     <header class="cabecalho">
 
-        <nav class="cabecalho__menu">
+        <nav class="cabecalho__nav">
+            <div class="cabecalho__menu">
+                <a href="home.html"><img src="assets/img/logo-cabecalho.svg" alt="Logo adopet | Home Page" class="cabecalho__logo"></a>
 
-            <a href="#"><img src="assets/img/icone/Casa.svg" alt="Icone de casa" title="Página Inicial" class="icone icone--casa"></a>
+                <a href="#"><img src="assets/img/icone/Casa.svg" alt="Icone de casa" title="Icone de casa" ></a>
 
-            <a href="#"><img src="assets/img/icone/Mensagens.svg" alt="Icone de Mensagens" title="Caixa de Mensagem" class="icone icone--mensagem"></a>
+                <a href="#"><img src="assets/img/icone/Mensagens.svg" alt="Icone de Mensagens" title="Icone de Mensagens" ></a>
+            </div>
 
+            <img src="assets/img/icone/Usuário.svg" alt="Icone Usuário" title="Icone Usuário" class="icone icone--user">
+            
         </nav>
-        
-        <img src="assets/img/icone/Usuário.svg" alt="Icone Usuário" title="Icone Usuário" class="icone icone--user">
 
     </header>
 
@@ -43,10 +46,13 @@
         <div class="conteudo__formulario">
             <form >
                 <label for="email" class="formulario__texto">Email</label>
-                <input type="email" id="email" placeholder="Insira seu email" class="formulario__input">
+                <input type="email" id="email" placeholder="Insira seu email" class="formulario__input formulario__input--tamanho">
 
                 <label for="senha" class="formulario__texto">Senha</label>
-                <input type="password" placeholder="Insira sua senha"  class="formulario__input">
+                <div class="input-icon">
+                    <a><img src="assets/img/icone/icone-olho.svg" class="icon"></a>
+                    <input type="password" placeholder="Insira sua senha"  class="formulario__input">
+                </div>
             </form>
 
             <p class="esqueci__senha">Esqueci minha senha.</p>

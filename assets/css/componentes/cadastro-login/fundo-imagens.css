@@ -12,3 +12,18 @@
     font-size: 16px;
     font-family: var(--fonte-pop);
 }
+
+@media (min-width: 768px) {
+    .body__fundo{
+        background-image:  url(../../../img/background-responsivo/patasTablet.svg),
+        url(../../../img/background-responsivo/formaCabecalhoTab-Desk.svg),
+        url(../../../img/background-responsivo/formaConteudoTab-Desk.svg);
+        background-position: top right, top left, right bottom 28%;
+    }
+}
+
+@media (min-width: 1280px) {
+    .body__fundo{
+        background-position: top right, top left, right center;
+    }
+}

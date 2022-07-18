@@ -1,0 +1,60 @@
+@import url(/assets/css/base.css);
+body{
+    background-image: url(../../../img/formaCabecalho.svg);
+    background-repeat: no-repeat;
+
+    font-family: var(--fonte-pop);
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.conteudo__principal{
+    flex-grow: 1;
+
+    margin-top: 2rem;
+
+}
+
+.bg__cinza-claro{
+    padding: 2rem 1rem;
+    background-color: rgb(230, 230, 230);
+    margin: 1rem;
+    border-radius: 10px;
+}
+
+
+@media (min-width: 768px) {
+    body{
+        background-image: 
+        url(../../../img/background-responsivo/formaCabecalhoTab-Desk.svg),
+        url(../../../img/background-responsivo/formaConteudoTab-Desk.svg);
+        background-position: left top, right center; 
+    }
+    .conteudo__principal{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 8rem;
+
+    }
+    .bg__cinza-claro{
+        width: 60vw;
+        padding: 2rem 1.875rem;
+    }
+}
+
+@media (min-width: 1280px) {
+    .conteudo__principal{
+        margin-top: 4rem;
+        margin-bottom: 4rem;
+    }
+    .bg__cinza-claro{
+        width: 40vw;
+        padding: 2rem 1.875rem;
+    }
+
+    .text-area{
+        height: 20vh;
+    }
+}
