@@ -2,16 +2,23 @@
     color: var(--azul);
     text-align: center;
     padding: 1rem 4.1875rem;
+    
 }
 .texto__titulo{
     line-height: 20px;
     font-weight: 400;
+    padding: 0 2rem 0 2rem;
 }
+
+
 .cards{
     display: flex;
+    align-items: center;
+    justify-content: center;
     flex-direction: column;
     gap: 1rem;
     z-index: 1;
+
 }
 
 .card{
@@ -58,4 +65,29 @@
 .card__texto--ajustes{
     font-weight: 400;
     color: var(--cinza);
+}
+
+@media (min-width: 768px) {
+    
+    .texto__titulo--ola{
+        display: block;
+    }
+    .cards{
+        display: flex;
+        flex-direction: row;
+
+        flex-wrap: wrap;
+    }
+
+    .card{
+        width: 21.5rem;
+    }
+
+    
+}
+
+@media (min-width: 1280px) {
+    .texto__titulo--ola{
+        display: inline;
+    }
 }

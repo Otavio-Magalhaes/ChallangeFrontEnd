@@ -7,11 +7,20 @@
     padding: 0 1rem;
 }
 
+.texto__titulo{
+    padding: 3rem;
+}
+
 .conteudo__logo--azul{
     width: 142.54px;
     height: 34.36px ;
     margin-bottom: 1.5rem;
 }
+
+
+
+
+
 /* somente na pagina de login existe este espaçamento*/
 .espacamento__login{
     margin-top: 3.54rem;
