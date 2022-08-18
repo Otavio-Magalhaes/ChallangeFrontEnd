@@ -20,7 +20,8 @@
 /* pagina de mensagem*/
 .texto__paragrafo--azul{
     color: var(--azul);
-    padding: 0 4.5rem;
+    padding: 0 4rem;
+    font-weight: bold;
 }
 
 

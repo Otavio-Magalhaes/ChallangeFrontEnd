@@ -9,8 +9,9 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@500&family=Poppins:wght@400;600&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="assets/css/cabecalho.css">
-    <link rel="stylesheet" href="assets/css/rodape.css">
+    <link rel="stylesheet" href="assets/css/base.css">
+    <link rel="stylesheet" href="assets/css/componentes/cabecalho.css">
+    <link rel="stylesheet" href="assets/css/componentes/rodape.css">
     <link rel="stylesheet" href="assets/css/componentes/animais/animais.css">
     <link rel="stylesheet" href="assets/css/componentes/animais/card.css">
 </head>
@@ -20,12 +21,12 @@
             <div class="cabecalho__menu">
                 <a href="home.html"><img src="assets/img/logo-cabecalho.svg" alt="Logo adopet | Home Page" class="cabecalho__logo"></a>
 
-                <a href="#"><img src="assets/img/icone/Casa.svg" alt="Icone de casa" title="Icone de casa" ></a>
+                <a href="home.html"><img src="assets/img/icone/Casa.svg" alt="Icone de casa" title="Icone de casa" ></a>
 
-                <a href="#"><img src="assets/img/icone/Mensagens.svg" alt="Icone de Mensagens" title="Icone de Mensagens"></a>
+                <a href="mensagem.html"><img src="assets/img/icone/Mensagens.svg" alt="Icone de Mensagens" title="Icone de Mensagens"></a>
             </div>
 
-            <img src="assets/img/icone/Usuário.svg" alt="Icone Usuário" title="Icone Usuário" class="icone ">
+            <a href="perfil.html"><img src="assets/img/icone/Usuário.svg" alt="Icone Usuário" title="Icone Usuário" class="icone"></a>
             
         </nav>
     </header>
@@ -34,7 +35,7 @@
         <div class="bg__imagens">
         </div>
         <div class="container__texto">
-            <p class="texto__titulo"><span class="texto__titulo--ola">Olá!</span> veja os amigos disponíveis para adoção</p>
+            <p class="texto__titulo"><span class="texto__titulo--ola">Olá! veja os amigos disponíveis para adoção</p>
         </div>
         <section class="cards">
             <article class="card">
@@ -49,10 +50,12 @@
                     <p class="card__descricao card__texto--ajustes">calmo e educado</p>
 
                     <p class="card__endereco card__texto--ajustes">Rio de Janeiro (RJ)</p>
-                   <div class="div__mensagem">
-                        <span><img src="assets/img/icone/icone-mensagem.svg" alt="enviar mensagem" class="icone__mensagem"></span>
+
+                    <div class="div__mensagem">
+                        <img src="assets/img/icone/icone-mensagem.svg" alt="enviar mensagem" class="icone__mensagem">
                         <p class="card__mensagem card__texto--ajustes"> Falar com a responsável</p>
                     </div>
+ 
                 </div>
             </article>
 
@@ -69,7 +72,7 @@
 
                     <p class="card__endereco card__texto--ajustes">Nova Iguaçu (RJ)</p>
                     <div class="div__mensagem">
-                        <span><img src="assets/img/icone/icone-mensagem.svg" alt="enviar mensagem" class="icone__mensagem"></span>
+                        <img src="assets/img/icone/icone-mensagem.svg" alt="enviar mensagem" class="icone__mensagem">
                         <p class="card__mensagem card__texto--ajustes"> Falar com a responsável</p>
                     </div>
                 </div>
@@ -88,7 +91,7 @@
 
                     <p class="card__endereco card__texto--ajustes">Duque de Caxias (RJ)</p>
                     <div class="div__mensagem">
-                        <span><img src="assets/img/icone/icone-mensagem.svg" alt="enviar mensagem" class="icone__mensagem"></span>
+                        <img src="assets/img/icone/icone-mensagem.svg" alt="enviar mensagem" class="icone__mensagem">
                         <p class="card__mensagem card__texto--ajustes"> Falar com a responsável</p>
                     </div>
                 </div>
@@ -107,8 +110,8 @@
 
                     <p class="card__endereco card__texto--ajustes">São Gonçalo (RJ)</p>
                     <div class="div__mensagem">
-                        <span><img src="assets/img/icone/icone-mensagem.svg" alt="enviar mensagem" class="icone__mensagem"></span>
-                        <p class="card__mensagem card__texto--ajustes"> Falar com a responsável</p>
+                        <img src="assets/img/icone/icone-mensagem.svg" alt="enviar mensagem" class="icone__mensagem">
+                        <p class="card__mensagem card__texto--ajustes">Falar com a responsável</p>
                     </div>
                 </div>
             </article>
@@ -126,7 +129,7 @@
 
                     <p class="card__endereco card__texto--ajustes">Rio de Janeiro (RJ)</p>
                     <div class="div__mensagem">
-                        <span><img src="assets/img/icone/icone-mensagem.svg" alt="enviar mensagem" class="icone__mensagem"></span>
+                        <img src="assets/img/icone/icone-mensagem.svg" alt="enviar mensagem" class="icone__mensagem">
                         <p class="card__mensagem card__texto--ajustes"> Falar com a responsável</p>
                     </div>
                 </div>
@@ -145,7 +148,7 @@
 
                     <p class="card__endereco card__texto--ajustes">Nova Iguaçu (RJ)</p>
                     <div class="div__mensagem">
-                        <span><img src="assets/img/icone/icone-mensagem.svg" alt="enviar mensagem" class="icone__mensagem"></span>
+                        <img src="assets/img/icone/icone-mensagem.svg" alt="enviar mensagem" class="icone__mensagem">
                         <p class="card__mensagem card__texto--ajustes"> Falar com a responsável</p>
                     </div>
                 </div>
@@ -164,7 +167,7 @@
 
                     <p class="card__endereco card__texto--ajustes">Duque de Caxias (RJ)</p>
                     <div class="div__mensagem">
-                        <span><img src="assets/img/icone/icone-mensagem.svg" alt="enviar mensagem" class="icone__mensagem"></span>
+                        <img src="assets/img/icone/icone-mensagem.svg" alt="enviar mensagem" class="icone__mensagem">
                         <p class="card__mensagem card__texto--ajustes"> Falar com a responsável</p>
                     </div>
                 </div>
@@ -183,7 +186,7 @@
 
                     <p class="card__endereco card__texto--ajustes">São Gonçalo (RJ)</p>
                     <div class="div__mensagem">
-                        <span><img src="assets/img/icone/icone-mensagem.svg" alt="enviar mensagem" class="icone__mensagem"></span>
+                        <img src="assets/img/icone/icone-mensagem.svg" alt="enviar mensagem" class="icone__mensagem">
                         <p class="card__mensagem card__texto--ajustes"> Falar com a responsável</p>
                     </div>
                 </div>
@@ -202,7 +205,7 @@
 
                     <p class="card__endereco card__texto--ajustes">Rio de Janeiro (RJ)</p>
                     <div class="div__mensagem">
-                        <span><img src="assets/img/icone/icone-mensagem.svg" alt="enviar mensagem" class="icone__mensagem"></span>
+                        <img src="assets/img/icone/icone-mensagem.svg" alt="enviar mensagem" class="icone__mensagem">
                         <p class="card__mensagem card__texto--ajustes"> Falar com a responsável</p>
                     </div>
                 </div>

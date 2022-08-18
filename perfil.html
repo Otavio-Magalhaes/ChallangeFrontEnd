@@ -4,17 +4,18 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mensagem | Adopet</title>
-
+    <title>Perfil | Adopet</title>
     <link rel="stylesheet" href="assets/css/reset.css">
     <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@500&family=Poppins:wght@400;600&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="assets/css/base.css">
     <link rel="stylesheet" href="assets/css/componentes/cabecalho.css">
     <link rel="stylesheet" href="assets/css/componentes/rodape.css">
+    <link rel="stylesheet" href="assets/css/componentes/perfil/perfil.css">
     <link rel="stylesheet" href="assets/css/componentes/mensagem/conteudo.css">
     <link rel="stylesheet" href="assets/css/componentes/botao.css">
     <link rel="stylesheet" href="assets/css/componentes/formulario.css">
     <link rel="stylesheet" href="assets/css/componentes/texto.css">
+
 </head>
 <body>
     <header class="cabecalho">
@@ -26,33 +27,37 @@
 
                 <a href="mensagem.html"><img src="assets/img/icone/Mensagens.svg" alt="Icone de Mensagens" title="Icone de Mensagens"></a>
             </div>
-
-            <a href="perfil.html"><img src="assets/img/icone/Usuário.svg" alt="Icone Usuário" title="Icone Usuário" class="icone "></a>
-            
+            <a href="perfil.html"><img src="assets/img/usuario.png" alt="Icone Usuário" title="Icone Usuário" class="icone "> </a>
         </nav>
     </header>
 
+
     <main class="conteudo__principal">
         <div class="container__texto">
-            <p class="texto__paragrafo texto__paragrafo--azul">Envie uma mensagem para a pessoa ou instituição que está cuidando do animal:</p>
+            <h2 class="texto__paragrafo texto__paragrafo--azul">Esse é o perfil que aparece para responsáveis ou ONGs que recebem sua mensagem.</h2>
         </div>
 
         <div class="conteudo__formulario">
-            <div class="formulario__container bg__cinza-claro">
+             <div class="formulario__container bg__cinza-claro"> 
+                <h3 class="formulario__titulo">Perfil</h3>
                 <form >
+                    <label for="foto" class="formulario__texto formulario__texto--azul"> Foto</label>
+                    <img src="assets/img/fotoPerfilFormulario.png" alt="Icone Usuário" title="Icone Usuário" class="foto__perfil ">  
+                    <p class="texto__foto-perfil">Clique na foto para editar</p> 
+
                     <label for="nome" class="formulario__texto formulario__texto--azul"> Nome</label>
-                    <input type="text" placeholder="Digite Seu nome completo" class="formulario__input ">
+                    <input type="text" placeholder="Digite Seu nome completo" class="formulario__input input__perfil ">
                     
                     <label for="senha" class="formulario__texto formulario__texto--azul">telefone</label>
-                    <input type="tel" placeholder="Insira seu telefone e/ou whatsapp"  class="formulario__input">
+                    <input type="tel" placeholder="55 21 xxxxxxxx"  class="formulario__input input__perfil">
 
-                    <label for="senha" class="formulario__texto formulario__texto--azul">Nome do animal</label>
-                    <input type="text" placeholder="Por qual animal você se interessou?"  class="formulario__input">
+                    <label for="senha" class="formulario__texto formulario__texto--azul">Cidade</label>
+                    <input type="text" placeholder="Rio de Janeiro"  class="formulario__input input__perfil">
 
                     <label for="msg" class="formulario__texto formulario__texto--azul">Mensagem</label>
-                    <textarea name="mensagem" id="msg" cols="30" rows="10" placeholder="Escreva sua mensagem." class="text-area"></textarea>
+                    <textarea name="mensagem" id="msg" cols="30" rows="10" placeholder="At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati." class="text-area input__perfil"></textarea>
 
-                    <button class="botao botao--formulario" type="submit">Enviar</button>
+                    <button class="botao botao--formulario" type="submit">Salvar</button>
                 </form>
             </div>
         </div>
@@ -61,6 +66,5 @@
     <footer class="rodape">
         <p class="rodape__paragrafo">2022 - Desenvolvido por <a href="https://github.com/Otavio-Magalhaes">Otavio Magalhaes</a></p>
     </footer>
-
 </body>
 </html>

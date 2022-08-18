@@ -41,7 +41,26 @@
 }
 
 
-/*Formulario Mensagem*/
+
+
+/*Formulario Mensagem e perfil*/
+.formulario__container{
+    margin: 1rem;
+    border-radius: 10px;
+    padding: 2rem 1rem;
+}
+
+.formulario__titulo{
+    text-align: center;
+    font-size: 21px;
+    color: var(--cinza);
+    font-weight: 600;
+    margin-bottom: 1rem;
+}
+
+
+
+
 .formulario__texto--azul{
     color: var(--azul);
     font-weight: 600;
@@ -60,7 +79,10 @@
 .text-area::placeholder{
     color: #BCBCBC;
     padding: 1rem;
-    font-size: 1.25rem;
+    font-size: 1rem;
+}
+.input__perfil::placeholder{
+    color: var(--cinza);
 }
 
 @media (min-width: 768px) {

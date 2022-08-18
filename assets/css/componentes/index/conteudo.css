@@ -1,9 +1,10 @@
+@import url(/assets/css/base.css);
 body{
     background-color: var(--azul);
     background-image: 
-    url(../img/formaCabecalho.svg), 
-    url(../img/formaConteudo.svg), 
-    url(../img/ilustração-conteudo.svg) ;
+    url(../../../img/formaCabecalho.svg), 
+    url(../../../img/formaConteudo.svg), 
+    url(../../../img/ilustração-conteudo.svg) ;
 
     background-position:top left, 
     right center,
@@ -50,9 +51,9 @@ body{
 @media (min-width: 768px) {
     body{
         background-image: 
-        url(../img/background-responsivo/formaCabecalhoTab-Desk.svg), 
-        url(../img/background-responsivo/formaConteudoTab-Desk.svg), 
-        url(../img/background-responsivo/ilustracaoConteudoTab-Desk.svg) ;
+        url(../../../img/background-responsivo/formaCabecalhoTab-Desk.svg), 
+        url(../../../img/background-responsivo/formaConteudoTab-Desk.svg), 
+        url(../../../img/background-responsivo/ilustracaoConteudoTab-Desk.svg) ;
     }
     
     .conteudo__principal {

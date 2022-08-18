@@ -17,11 +17,10 @@ body{
 }
 
 .bg__cinza-claro{
-    padding: 2rem 1rem;
-    background-color: rgb(230, 230, 230);
-    margin: 1rem;
-    border-radius: 10px;
+    background-color: var(--cinza-claro);
 }
+
+
 
 
 @media (min-width: 768px) {
@@ -38,7 +37,7 @@ body{
         margin-top: 8rem;
 
     }
-    .bg__cinza-claro{
+    .formulario__container{
         width: 60vw;
         padding: 2rem 1.875rem;
     }

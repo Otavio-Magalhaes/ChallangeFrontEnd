@@ -7,15 +7,15 @@
     <title>Cadastro | Adopet</title>
     <link rel="stylesheet" href="assets/css/reset.css">
     <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@500&family=Poppins:wght@400;600&display=swap" rel="stylesheet">
-
-    <link rel="stylesheet" href="assets/css/cabecalho.css">
-    <link rel="stylesheet" href="assets/css/rodape.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="assets/css/base.css">
+    <link rel="stylesheet" href="assets/css/componentes/cabecalho.css">
+    <link rel="stylesheet" href="assets/css/componentes/rodape.css">
     <link rel="stylesheet" href="assets/css/componentes/botao.css">
     <link rel="stylesheet" href="assets/css/componentes/cadastro-login/container-conteudo.css">
-    <link rel="stylesheet" href="assets/css/componentes/cadastro-login/texto.css">
-    <link rel="stylesheet" href="assets/css/componentes/cadastro-login/formulario-cadastro.css">
+    <link rel="stylesheet" href="assets/css/componentes/texto.css">
+    <link rel="stylesheet" href="assets/css/componentes/formulario.css">
     <link rel="stylesheet" href="assets/css/componentes/cadastro-login/fundo-imagens.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
 </head>
 
@@ -26,9 +26,9 @@
             <div class="cabecalho__menu">
                 <a href="home.html"><img src="assets/img/logo-cabecalho.svg" alt="Logo adopet | Home Page" class="cabecalho__logo"></a>
 
-                <a href="#"><img src="assets/img/icone/Casa.svg" alt="Icone de casa" title="Icone de casa" ></a>
+                <a href="home.html"><img src="assets/img/icone/Casa.svg" alt="Icone de casa" title="Icone de casa" ></a>
 
-                <a href="#"><img src="assets/img/icone/Mensagens.svg" alt="Icone de Mensagens" title="Icone de Mensagens"></a>
+                <a href="mensagem.html"><img src="assets/img/icone/Mensagens.svg" alt="Icone de Mensagens" title="Icone de Mensagens"></a>
             </div>
 
             <img src="assets/img/icone/Usuário.svg" alt="Icone Usuário" title="Icone Usuário" class="icone icone--user">
@@ -48,24 +48,28 @@
         <div class="conteudo__formulario">
             <form >
                 <label for="email" class="formulario__texto">Email</label>
-                <input type="email" id="email" placeholder="Escolha seu melhor email" class="formulario__input formulario__input--tamanho">
+                <input type="email" id="email" placeholder="Escolha seu melhor email" class="formulario__input formulario__input--tamanho" required>
+                <!-- <span class="input-mensagem-erro">Este campo não está válido</span> -->
 
                 <label for="nome" class="formulario__texto">Nome</label>
-                <input type="text" placeholder="Digite Seu nome completo"  class="formulario__input formulario__input--tamanho">
+                <input type="text" placeholder="Digite Seu nome completo"  class="formulario__input formulario__input--tamanho" required>
+                <!-- <span class="input-mensagem-erro">Este campo não está válido</span> -->
                 
                 <label for="senha" class="formulario__texto">Senha</label>
                 <div class="input-icon">
                     <a><img src="assets/img/icone/icone-olho.svg" class="icon"></a>
-                    <input type="password" placeholder="Crie uma senha"  class="formulario__input">
+                    <input type="password" placeholder="Crie uma senha"  class="formulario__input"  pattern="^(?=.*[a-z])(?=.*[A-Z])(?=.*[0-9])(?!.*[ !@#$%^&*_=+-]).{6,12}$" title="A senha deve conter entre 6 a 12 caracteres, deve conter pelo menos uma letra maiúscula, um número e não deve conter símbolos." required>
+                    <!-- <span class="input-mensagem-erro">Este campo não está válido</span> -->
                 </div>
 
                 <label for="confirm" class="formulario__texto">Confirmar sua senha</label>
                 <div class="input-icon">
                     <a><img src="assets/img/icone/icone-olho.svg" class="icon"></a>
-                    <input type="password" placeholder="Repita sua senha criada acima" class="formulario__input"> 
+                    <input type="password" placeholder="Repita sua senha criada acima" class="formulario__input" required> 
+                    <!-- <span class="input-mensagem-erro">Este campo não está válido</span> -->
                 </div>
 
-                <button class="botao botao--formulario" type="submit">Cadastrar</button>
+                <button class="botao botao--formulario">Cadastrar</button>
             </form>
         </div>
     </main>
