@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+
 body{
     background-color: var(--azul);
     background-image: 
@@ -15,6 +17,11 @@ body{
     font-family: var(--fonte-pop);
     min-width: 100vw;
     min-height: 100vh;
+}
+
+.fonte__bolada {  
+    font-family: 'Pacifico', cursive !important;
+ 
 }
 
 .conteudo__principal{

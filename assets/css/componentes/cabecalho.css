@@ -13,6 +13,9 @@
 
 .cabecalho__logo{
     display: none;
+    width: 50px;
+    height: 100px;
+    margin-right: 1rem;
 }
 .cabecalho__menu{
     display: flex;
@@ -39,7 +42,7 @@
     .cabecalho__logo{
         display: flex;
         width: 128px;
-        height: 31px;
+        height: 100px;
     }
     .icone{
         width: 48px;
@@ -64,6 +67,6 @@
     }
     .icone{
         width: 56px;
-        height: 56px;
+        height: 100px;
     }
 }
